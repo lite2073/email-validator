@@ -1,4 +1,4 @@
-package com.citrix.emailvalidator.impl;
+package com.github.lite2073.emailvalidator.impl;
 
 import static org.junit.Assert.fail;
 
@@ -10,9 +10,9 @@ import org.junit.Test;
 
 import com.dominicsayers.isemail.IsEmailTest;
 import com.dominicsayers.isemail.IsEmailTest.EmailTestResult;
-import com.teli.emailvalidator.EmailValidator;
-import com.teli.emailvalidator.impl.HibernateValidatorEmailValidator;
-import com.teli.emailvalidator.impl.SimpleEmailValidator;
+import com.github.lite2073.emailvalidator.EmailValidator;
+import com.github.lite2073.emailvalidator.impl.HibernateValidatorEmailValidator;
+import com.github.lite2073.emailvalidator.impl.SimpleEmailValidator;
 
 public class HibernateValidatorEmailValidatorTest {
 

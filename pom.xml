@@ -6,7 +6,7 @@
         <version>7</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
-    <groupId>com.teli</groupId>
+    <groupId>com.github.lite2073</groupId>
     <artifactId>email-validator</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>jar</packaging>

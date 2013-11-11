@@ -1,12 +1,12 @@
-package com.teli.emailvalidator.impl;
+package com.github.lite2073.emailvalidator.impl;
 
 import javax.validation.ConstraintValidator;
 
 import org.hibernate.validator.constraints.Email;
 
-import com.teli.emailvalidator.EmailValidationResult;
-import com.teli.emailvalidator.EmailValidator;
-import com.teli.emailvalidator.EmailValidationResult.State;
+import com.github.lite2073.emailvalidator.EmailValidationResult;
+import com.github.lite2073.emailvalidator.EmailValidator;
+import com.github.lite2073.emailvalidator.EmailValidationResult.State;
 
 public class HibernateValidatorEmailValidator implements EmailValidator {
 

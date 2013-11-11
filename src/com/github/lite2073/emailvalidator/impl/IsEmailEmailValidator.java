@@ -1,11 +1,11 @@
-package com.teli.emailvalidator.impl;
+package com.github.lite2073.emailvalidator.impl;
 
 import com.dominicsayers.isemail.IsEMail;
 import com.dominicsayers.isemail.IsEMailResult;
 import com.dominicsayers.isemail.dns.DNSLookupException;
-import com.teli.emailvalidator.EmailValidationResult;
-import com.teli.emailvalidator.EmailValidator;
-import com.teli.emailvalidator.EmailValidationResult.State;
+import com.github.lite2073.emailvalidator.EmailValidationResult;
+import com.github.lite2073.emailvalidator.EmailValidator;
+import com.github.lite2073.emailvalidator.EmailValidationResult.State;
 
 public class IsEmailEmailValidator implements EmailValidator {
 

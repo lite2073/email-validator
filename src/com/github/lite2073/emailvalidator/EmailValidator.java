@@ -1,4 +1,4 @@
-package com.teli.emailvalidator;
+package com.github.lite2073.emailvalidator;
 
 public interface EmailValidator {
 
