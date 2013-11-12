@@ -1,10 +1,24 @@
-email-validator
+Email Validator
 ===============
 
-Email Validator
+## What is it?
 
-Based on isemail: https://code.google.com/p/isemail/
+It's a collection of Java email validators with an abstraction layer, including <a href="https://code.google.com/p/isemail">is_email</a>.
 
-Added an abstraction layer that allows multiple validator implementations.
+## System Requirements
 
-Added test utilities to allow comparisons.
+JDK 1.6 or above.
+
+## Using Email Validator
+
+* To use with Maven, add the following dependency:
+
+        <dependency>
+            <groupId>com.github.lite2073</groupId>
+            <artifactId>email-validator</artifactId>
+            <version>1.0</version>
+        </dependency>
+
+* In your code:
+
+        EmailValidator emailValidator = new IsEmailEmailValidator();
